@@ -12,6 +12,8 @@
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
+*.afphoto
+*.afdesign
 
 # Mono auto generated files
 mono_crash.*
