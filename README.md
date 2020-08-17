@@ -1,5 +1,5 @@
 # IC Map Resource Unveiler
-Upgrading IC maps to display resources from the beginning!
+Upgrading IC maps to display resources from the beginning of the match!
 
 ### How does it work?
 1. Open the main window.
