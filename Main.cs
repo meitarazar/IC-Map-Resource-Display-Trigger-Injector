@@ -428,34 +428,42 @@ namespace MapUpgrader
             {
                 Console.Out.WriteLine("fileToLoad: " + triggersInfo.FullName);
 
-                Lua lua = new Lua();
-                lua.DoFile(triggersInfo.FullName);
-
-                foreach (DictionaryEntry folder in lua.GetTable("folders"))
+                try
                 {
-                    LuaTable triggerFolder = lua.GetTable(folder.Value.ToString());
-                    if (triggerFolder != null)
-                    {
-                        foreach (DictionaryEntry trigger in triggerFolder)
-                        {
-                            LuaTable triggerTable = (LuaTable)trigger.Value;
-                            next_trigger_id = Math.Max(next_trigger_id, int.Parse(triggerTable["id"].ToString()) + 1);
+                    Lua lua = new Lua();
+                    lua.DoFile(triggersInfo.FullName);
 
-                            string name = triggerTable["name"].ToString();
-                            if ("resources_on".Equals(name))
+                    foreach (DictionaryEntry folder in lua.GetTable("folders"))
+                    {
+                        LuaTable triggerFolder = lua.GetTable(folder.Value.ToString());
+                        if (triggerFolder != null)
+                        {
+                            foreach (DictionaryEntry trigger in triggerFolder)
                             {
-                                if (withLog) LogWriteLine(" Trigger named 'resources_on' was found >:(");
-                                lastError = UpgradeError.TrgResOn;
-                                return false;
-                            }
-                            else if ("resources_off".Equals(name))
-                            {
-                                if (withLog) LogWriteLine(" Trigger named 'resources_off' was found >:(");
-                                lastError = UpgradeError.TrgResOff;
-                                return false;
+                                LuaTable triggerTable = (LuaTable)trigger.Value;
+                                next_trigger_id = Math.Max(next_trigger_id, int.Parse(triggerTable["id"].ToString()) + 1);
+
+                                string name = triggerTable["name"].ToString();
+                                if ("resources_on".Equals(name))
+                                {
+                                    if (withLog) LogWriteLine(" Trigger named 'resources_on' was found >:(");
+                                    lastError = UpgradeError.TrgResOn;
+                                    return false;
+                                }
+                                else if ("resources_off".Equals(name))
+                                {
+                                    if (withLog) LogWriteLine(" Trigger named 'resources_off' was found >:(");
+                                    lastError = UpgradeError.TrgResOff;
+                                    return false;
+                                }
                             }
                         }
                     }
+                }
+                catch (Exception exception)
+                {
+                    LogWriteLine("ERROR!\r\n" + exception.Message);
+                    return false;
                 }
                 if (withLog) LogWriteLine(" Triggers for resources control were not found :)");
             }
