@@ -308,6 +308,20 @@ namespace MapUpgrader
             groupsContainer.AppendToSelf(group);
             LogWriteLine(" Done :)");
 
+            LogWrite(" > Creating backup folder...");
+            FileInfo mapInfo = new FileInfo(filePath);
+            string bkpPath = Path.Combine(mapInfo.Directory.FullName, "bkp_" + Path.ChangeExtension(mapInfo.Name, null) + "_" + DateTime.Now.ToString("yyyyMMdd_HHmmss"));
+            DirectoryInfo bkpPathInfo = new DirectoryInfo(bkpPath);
+            if (!bkpPathInfo.Exists)
+            {
+                bkpPathInfo.Create();
+            }
+            LogWriteLine(" Done :)");
+
+            LogWrite(" > Creating map backup...");
+            File.Copy(mapInfo.FullName, Path.Combine(bkpPath, mapInfo.Name + mapInfo.Extension));
+            LogWriteLine(" Done :)");
+
             LogWrite(" > Exporting file...");
             File.WriteAllBytes(filePath, file.Build());
             LogWriteLine(" Done :)");
@@ -318,6 +332,10 @@ namespace MapUpgrader
                 .Replace(TrgConsts.trigger2Id, 1.ToString())
                 .Replace(TrgConsts.triggerLabId, blueprint_id_lab.ToString())
                 .Replace(TrgConsts.triggerResGrpId, res_group_id.ToString());
+
+            LogWrite(" > Creating triggers backup...");
+            File.Copy(triggersInfo.FullName, Path.Combine(bkpPath, triggersInfo.Name + triggersInfo.Extension));
+            LogWriteLine(" Done :)");
 
             LogWrite(" > Exporting triggers...");
             if (triggersInfo.Exists)
