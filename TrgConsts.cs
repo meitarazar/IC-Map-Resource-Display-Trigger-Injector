@@ -14,7 +14,7 @@ namespace MapUpgrader
         public const string triggerResGrpId = "%ID_RES_GRP%";
         public const string triggersPath = "%TRG_PATH%";
 
-        public const string triggerFolder = "resurce_control";
+        public const string triggerFolder = "resource_control";
         public const string triggersFoldersTable = @"-- tool:%TRG_PATH% --
 
 -- list of all trigger folders
@@ -24,7 +24,7 @@ folders = {
 }
 default = {
 }";
-        public const string resourcesTriggers = @"resurce_control = {
+        public const string resourcesTriggers = triggerFolder + @" = {
    {
       id = %ID1%,
       name = ""resources_on"",
