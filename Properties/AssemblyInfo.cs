@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("IC Map Resource Display Trigger Injector")]
+[assembly: AssemblyTitle("IC Map Resource Unveiler")]
 [assembly: AssemblyDescription("Upgrading IC maps to display resources")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("IC Map Resource Display Trigger Injector")]
+[assembly: AssemblyProduct("IC Map Resource Unveiler")]
 [assembly: AssemblyCopyright("Copyright © 2020 MightySarion")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
