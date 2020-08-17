@@ -1,4 +1,4 @@
-# IC Map Resource Display Trigger Injector
+# IC Map Resource Unveiler
 Upgrading IC maps to display resources from the beginning!
 
 ### How does it work?
@@ -12,9 +12,9 @@ Maps that don't meet the following requirements:
 - The map don't have a trigger named 'resources_on'
 - The map don't have a trigger named 'resources_off'
 
-### [Releases](https://github.com/meitarazar/IC-Map-Resource-Display-Trigger-Injector/releases)
+### [Releases](https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases)
 
-### [Project License](https://github.com/meitarazar/IC-Map-Resource-Display-Trigger-Injector/blob/master/LICENSE)
+### [Project License](https://github.com/meitarazar/IC-Map-Resource-Unveiler/blob/master/LICENSE)
 
 ### Dependencies
 This project uses the [LuaInterface project](https://code.google.com/archive/p/luainterface/) under the [MIT License](https://opensource.org/licenses/MIT)
