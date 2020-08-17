@@ -87,6 +87,18 @@ namespace MapUpgrader
             ids_res.Clear();
         }
 
+        private void BlankSubData()
+        {
+            file = null;
+            fileInfo = null;
+
+            next_trigger_id = -1;
+            res_group_id = -1;
+            blueprint_id_lab = -1;
+            blueprint_ids_res.Clear();
+            ids_res.Clear();
+        }
+
         private void ClearLog()
         {
             RichLogBox.Text = "";
@@ -344,6 +356,7 @@ namespace MapUpgrader
             {
                 foreach (FileInfo map in maps)
                 {
+                    BlankSubData();
                     LoadMapFile(map.FullName, false);
                     if (CanUpgrade(false))
                     {
