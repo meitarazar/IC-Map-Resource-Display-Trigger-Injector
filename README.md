@@ -7,10 +7,10 @@ Upgrading IC maps to display resources from the beginning of the match!
 1. Press 'Add Triggers!' and the magic will happen!
 
 ### Unupgradable maps!
-Maps that don't meet the following requirements:
-- The map don't have an entity group named 'resources'
-- The map don't have a trigger named 'resources_on'
-- The map don't have a trigger named 'resources_off'
+Maps have to meet the following requirements in order to be upgradeable:
+- There is no entity group named 'resources'
+- There is no trigger named 'resources_on'
+- There is no trigger named 'resources_off'
 
 ### [Releases](https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases)
 
