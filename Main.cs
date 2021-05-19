@@ -327,7 +327,7 @@ namespace MapUpgrader
             LogWriteLine(" Done :)");
 
             FileInfo triggersInfo = new FileInfo(Path.ChangeExtension(filePath, ".trg"));
-            string triggers = TrgConsts.resourcesTriggers
+            string triggers = TrgConsts.triggersTableRes
                 .Replace(TrgConsts.trigger1Id, 0.ToString())
                 .Replace(TrgConsts.trigger2Id, 1.ToString())
                 .Replace(TrgConsts.triggerLabId, blueprint_id_lab.ToString())
@@ -345,7 +345,7 @@ namespace MapUpgrader
                 {
                     if (lines[i].Contains("}"))
                     {
-                        lines.Insert(i, "   \"" + TrgConsts.triggerFolder + "\",");
+                        lines.Insert(i, "   \"" + TrgConsts.triggerFolderRes + "\",");
                         break;
                     }
                 }
@@ -354,7 +354,7 @@ namespace MapUpgrader
             }
             else
             {
-                string triggersPrefix = TrgConsts.triggersFoldersTable
+                string triggersPrefix = TrgConsts.foldersTableWithRes
                     .Replace(TrgConsts.triggersPath, triggersInfo.FullName);
                 File.WriteAllText(triggersInfo.FullName, triggersPrefix + "\r\n" + triggers);
             }
