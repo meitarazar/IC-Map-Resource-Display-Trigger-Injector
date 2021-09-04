@@ -5,11 +5,7 @@
 
 <p align="center">
   <a title="License" href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/meitarazar/IC-Map-Resource-Unveiler?style=plastic" />
-  </a>
-  <a href="https://discord.io/playic">
-    <img src="https://img.shields.io/discord/203368188359081984?logo=discord&logoColor=white&color=5865f2&style=plastic" />
-  </a><br>
+    <img src="https://img.shields.io/github/license/meitarazar/IC-Map-Resource-Unveiler?style=plastic" /></a>&nbsp;<a href="https://discord.io/playic"><img src="https://img.shields.io/discord/203368188359081984?logo=discord&logoColor=white&color=5865f2&style=plastic" /></a><br>
   
   <!--<img src="https://img.shields.io/github/commits-since/meitarazar/IC-Map-Resource-Unveiler/latest?style=plastic" />
   <a href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases/latest">
@@ -23,14 +19,7 @@
   </a><br>-->
   
   <a href="//">
-    <img alt="commits-since-pre" src="https://img.shields.io/github/commits-since/meitarazar/IC-Map-Resource-Unveiler/latest?include_prereleases&style=plastic" />
-  </a>
-  <a href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases/tag/v0.1.2">
-    <img src="https://img.shields.io/github/v/release/meitarazar/IC-Map-Resource-Unveiler?include_prereleases&label=pre%20release&style=plastic" />
-  </a>
-  <a href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases/tag/v0.1.2">
-    <img src="https://img.shields.io/github/release-date-pre/meitarazar/IC-Map-Resource-Unveiler?label=pre%20release&style=plastic" />
-  </a>
+    <img alt="commits-since-pre" src="https://img.shields.io/github/commits-since/meitarazar/IC-Map-Resource-Unveiler/latest?include_prereleases&style=plastic" /></a>&nbsp;<a href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases/tag/v0.1.2"><img src="https://img.shields.io/github/v/release/meitarazar/IC-Map-Resource-Unveiler?include_prereleases&label=pre%20release&style=plastic" /></a>&nbsp;<a href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases/tag/v0.1.2"><img src="https://img.shields.io/github/release-date-pre/meitarazar/IC-Map-Resource-Unveiler?label=pre%20release&style=plastic" /></a>
   <!--<a href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases/download/v0.1.2/RICIP_Pre-Release.rar">
     <img src="https://img.shields.io/github/downloads-pre/meitarazar/IC-Map-Resource-Unveiler/latest/RICIP_Pre-Release.rar?style=plastic" />
   </a>-->
