@@ -12,14 +12,14 @@
 
 ---
 
-## How It Works?
+## :bulb: How It Works?
 It works by creating a new entity group that contains all resources and adding triggers to the map's <code>TRG</code> file that expose this group for 1 second at the begginig of the match.
 
-## :information_source: How to upgrade a map/folder of maps? :information_source:
+## :information_source: How to upgrade a map/whole folder?
 1. Press 'Load Map' to load a single map or press 'Select Folder' to load all the maps in a specific folder.
 1. Press 'Add Triggers!' and the magic will happen!
 
-## :warning: Unupgradable maps! :warning:
+## :warning: Unupgradable maps!
 > **Maps have to meet the following requirements in order to be upgradeable:**
 - There is no entity group named 'resources'
 - There is no trigger named 'resources_on'
@@ -27,16 +27,16 @@ It works by creating a new entity group that contains all resources and adding t
 
 ---
 
-## Download
+## :inbox_tray: Download
 Download latest version: [IC Map Resource Unveiler v0.1.2](https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases/download/v0.1.2/Pre_Release_v0.1.2.rar)
 
 See [Releases Page](https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases) for more options
 
 
-## License
+## :scroll: License
 This project is under the [MIT License](https://github.com/meitarazar/IC-Map-Resource-Unveiler/blob/master/LICENSE)
 
-## Dependencies
+## :books: Dependencies
 This project uses the [LuaInterface project](https://code.google.com/archive/p/luainterface/) under the [MIT License](https://opensource.org/licenses/MIT)
 
 ---
