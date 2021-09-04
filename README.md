@@ -4,10 +4,34 @@
 </div>
 
 <p align="center">
-  <a title="License" href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/blob/master/LICENSE"><img src="https://img.shields.io/github/license/meitarazar/IC-Map-Resource-Unveiler?style=plastic" /></a>
-<a href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases/"><img src="https://img.shields.io/github/v/release/meitarazar/IC-Map-Resource-Unveiler?include_prereleases&style=plastic" /></a>
-<a href="https://discord.io/playic"><img src="https://img.shields.io/discord/203368188359081984?logo=discord&logoColor=white&color=5865f2&style=plastic" /></a><br>
-  <a href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases/download/v0.1.2/Pre_Release_v0.1.2.rar"><img src="https://img.shields.io/github/downloads-pre/meitarazar/IC-Map-Resource-Unveiler/v0.1.2/Pre_Release_v0.1.2.rar?style=plastic" /></a>
+  <a title="License" href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/meitarazar/IC-Map-Resource-Unveiler?style=plastic" />
+  </a>
+  <a href="https://discord.io/playic">
+    <img src="https://img.shields.io/discord/203368188359081984?logo=discord&logoColor=white&color=5865f2&style=plastic" />
+  </a><br>
+  
+  <!--<img src="https://img.shields.io/github/commits-since/meitarazar/IC-Map-Resource-Unveiler/latest?style=plastic" />
+  <a href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases/latest">
+    <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/meitarazar/IC-Map-Resource-Unveiler?style=plastic" />
+  </a>
+  <a href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases/latest">
+    <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/meitarazar/IC-Map-Resource-Unveiler?style=plastic" />
+  </a>
+  <a href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases/download/latest/RICIP_Release.rar">
+    <img src="https://img.shields.io/github/downloads/meitarazar/IC-Map-Resource-Unveiler/latest/RICIP_Release.rar?style=plastic" />
+  </a><br>-->
+  
+  <img src="https://img.shields.io/github/commits-since/meitarazar/IC-Map-Resource-Unveiler/latest?include_prereleases&style=plastic" />
+  <a href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases/tag/v0.1.2">
+    <img src="https://img.shields.io/github/v/release/meitarazar/IC-Map-Resource-Unveiler?include_prereleases&label=pre%20release&style=plastic" />
+  </a>
+  <a href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases/tag/v0.1.2">
+    <img src="https://img.shields.io/github/release-date-pre/meitarazar/IC-Map-Resource-Unveiler?label=pre%20release&style=plastic" />
+  </a>
+  <!--<a href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases/download/v0.1.2/RICIP_Pre-Release.rar">
+    <img src="https://img.shields.io/github/downloads-pre/meitarazar/IC-Map-Resource-Unveiler/latest/RICIP_Pre-Release.rar?style=plastic" />
+  </a>-->
 </p>
 
 ---
@@ -28,7 +52,15 @@ It works by creating a new entity group that contains all resources and adding t
 ---
 
 ## :inbox_tray: Download
-Download latest version: [IC Map Resource Unveiler v0.1.2](https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases/download/v0.1.2/Pre_Release_v0.1.2.rar)
+<!--Download the latest version
+<br><a href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases/download/latest/RICIP_Release.rar">
+  <img src="https://img.shields.io/github/downloads/meitarazar/IC-Map-Resource-Unveiler/latest/RICIP_Release.rar?style=plastic" />
+</a>-->
+
+Download the pre-release for the latest updates
+<br><a href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases/download/v0.1.2/RICIP_Pre-Release.rar">
+  <img src="https://img.shields.io/github/downloads-pre/meitarazar/IC-Map-Resource-Unveiler/latest/RICIP_Pre-Release.rar?style=plastic" />
+</a>
 
 See [Releases Page](https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases) for more options
 
