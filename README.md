@@ -22,7 +22,9 @@
     <img src="https://img.shields.io/github/downloads/meitarazar/IC-Map-Resource-Unveiler/latest/RICIP_Release.rar?style=plastic" />
   </a><br>-->
   
-  <img src="https://img.shields.io/github/commits-since/meitarazar/IC-Map-Resource-Unveiler/latest?include_prereleases&style=plastic" />
+  <a href="#">
+    <img alt="commits-since-pre" src="https://img.shields.io/github/commits-since/meitarazar/IC-Map-Resource-Unveiler/latest?include_prereleases&style=plastic" />
+  </a>
   <a href="https://github.com/meitarazar/IC-Map-Resource-Unveiler/releases/tag/v0.1.2">
     <img src="https://img.shields.io/github/v/release/meitarazar/IC-Map-Resource-Unveiler?include_prereleases&label=pre%20release&style=plastic" />
   </a>
